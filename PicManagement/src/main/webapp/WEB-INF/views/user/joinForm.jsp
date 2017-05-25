@@ -74,7 +74,7 @@ function checkID(){
 	      
 	      
 	      <label><b>Confirm Password</b></label>
-	      <input type="text" placeholder="ReEnter Password" name="upassword_conf" required>
+	      <input type="password" placeholder="ReEnter Password" name="upassword_conf" required>
 	      
 	      
 	      <label><b>Email</b></label>

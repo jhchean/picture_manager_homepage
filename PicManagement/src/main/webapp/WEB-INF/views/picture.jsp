@@ -274,6 +274,13 @@ body, html {
 					class="w3-hover-opacity" alt="The mist">
 					<button class="btn delCard" style="float: right;" value="${filename }">Delete</button> 					
 			</div>
+			<div class="w3-col m3" style="display:none">
+				<img src="https://www.w3schools.com/w3images/p5.jpg" 
+					style="width: 100%" onclick="onClick(this)" 
+					class="w3-hover-opacity" alt="The mist">
+					<button class="btn delCard" style="float: right;" value="${filename }">Delete</button> 					
+			</div> 
+
 
 			<div class="w3-col m3">
 				<img src="https://www.w3schools.com/w3images/p6.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
@@ -285,7 +292,7 @@ body, html {
 					<button class="btn delCard" style="float: right;" value="${filename }">Delete</button>
 			</div>
 
-			<div class="w3-col m3">
+			<div class="w3-col m3 bigpic">
 				<img src="https://www.w3schools.com/w3images/p8.jpg" style="width: 100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
 					<button class="btn delCard" style="float: right;" value="${filename }">Delete</button>
 			</div>
@@ -298,7 +305,7 @@ body, html {
 						
 						<div class="w3-col m3">
 							<img src="displayFile?fullList=${item }" 
-										style="width: 100%;height:200px;" onclick="onClick(this)" 
+										style="width: 100%;height:200px;" 
 										class="w3-hover-opacity" alt="The mist">
 							<button class="btn delCard del" style="float: right;" >Delete</button>
 							<input type="hidden" value="${item }" class="fullname"> 					
