@@ -249,7 +249,7 @@ body, html {
 					<button class="btn delCard" style="float: right;" value="${filename }">Delete</button>
 			</div>
 
-			<div class="w3-col m3">
+			<div class="w3-col m3">	
 				<img src="https://www.w3schools.com/w3images/p3.jpg"
 					style="width: 100%" onclick="onClick(this)"
 					class="w3-hover-opacity" alt="Bear closeup">
@@ -547,7 +547,7 @@ body, html {
 	
 <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?clientId=caV1xX4De6MFSFNAMvNW"></script>
 
-	<script>
+<script>
 	 $(function(){
 			var result = "${result}";
 			if(result != ""){
@@ -569,9 +569,7 @@ body, html {
 			
 			if ("${KEY}" != ""){
 				$("#login").hide();
-			}
-			
-			
+			}	 		
 			
 	}); 
 	
@@ -581,7 +579,7 @@ body, html {
 	};
 	
 	var map = new naver.maps.Map('map', mapOptions);
-	</script>
+</script>
 	
 
 </body>
